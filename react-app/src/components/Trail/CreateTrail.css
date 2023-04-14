@@ -1,0 +1,159 @@
+.create_trail_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.create_trail_form {
+    width: 1100px; 
+    height: 1450px;
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid rgb(205, 201, 200);
+        border-left: 1px solid rgb(205, 201, 200);
+        border-bottom: 1px solid rgb(205, 201, 200);
+}
+
+.create_trail_top_text {
+    display: flex;
+        flex-direction: row;
+        padding: 15px;
+        margin-right: 680px;
+        color: rgb(132, 132, 132);
+        font-size: 9.2pt;
+        width: 100%;
+}
+
+.create_trail_top_text_div {
+        border-bottom: 1px solid rgb(205, 201, 200);
+        width: 100%;
+}
+
+
+.create_trail_header {
+    font-family: "Roboto-Bold";
+    font-size: 15pt;
+    padding: 15px;
+    background: rgb(242, 243,243);
+        border-bottom: 1px solid rgb(205, 201, 200);
+}
+
+.create_trail_inputs_div {
+    height: 110px;
+    padding: 0px 15px;
+}
+
+.create_trail_inputs_button_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 110px;
+        padding: 0px 15px;
+}
+
+.create_trail_inputs {
+    height: 47px;
+    width: 390px;
+    border-radius: 4px;
+    margin: 4px 0px;
+    padding: 10px 16px;
+    border: 1px solid lightgrey;
+}
+
+.create_trail_textarea {
+    height: 47px;
+        width: 390px;
+        border-radius: 4px;
+        margin: 4px 0px;
+        padding: 15px 16px;
+        border: 1px solid lightgrey;
+        resize: none;
+}
+
+.create_trail_button_form {
+    height: 47px;
+    width: 390px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    background: rgb(60, 103, 148);
+    color: white;
+    cursor: pointer;
+}
+
+.create_trail_error {
+    color: red;
+}
+
+
+
+.create_trail_map_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.create_trail_label_div {
+    display: flex;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.create_trail_image_div {
+    display: flex;
+
+}
+
+.create_trail_image_input {
+    height: 101px;
+        width: 390px;
+        /* border-radius: 4px; */
+        margin: 4px 0px;
+        padding: 10px 16px;
+        /* border: 0.5px solid lightgrey; */
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+}
+
+.create_trail_image_input img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.create_trail_image_input:hover img {
+    transform: scale(1.09);
+}
+
+
+.create_trail_imageselect_text {
+    z-index: 1;
+    color: white;
+    height: 40px;
+        text-shadow: 1px 1.5px 1px black;
+}
+
+#preview {
+    width: 390px;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+        border-radius: 4px;
+        /* transition: .5s ease-in-out; */
+}
+
+
+
+

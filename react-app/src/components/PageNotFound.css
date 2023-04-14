@@ -1,0 +1,71 @@
+.pagenotfound_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pagenotfound_inner {
+    width: 1100px;
+    border-left: 1px solid rgb(205, 201, 200);
+    border-right: 1px solid rgb(205, 201, 200);
+    border-bottom: 1px solid rgb(205, 201, 200);
+    height: 900px;
+    position: relative;
+    z-index: 10;
+}
+
+.pagenotfound_image {
+    width: 1100px;
+    height: 898px;
+        position: relative;
+}
+
+.pagenotfound_firsttext {
+    position: absolute;
+    z-index: 11;
+    top: 85px;
+    right: 500px;
+    font-family: "Roboto-Bold";
+    font-size: 60px;
+}
+
+.pagenotfound_text {
+    position: absolute;
+    z-index: 11;
+    top: 150px;
+    right: 380px;
+    font-family: "Roboto-Bold";
+    font-size: 40px;
+}
+
+.pagenotfound_othertext {
+    position: absolute;
+    z-index: 11;
+    top: 220px;
+    right: 330px;
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+}
+
+.pagenotfound_navlink {
+    position: absolute;
+        z-index: 11;
+        top: 280px;
+        right: 495px;
+        text-decoration: none;
+        color: gray;
+        border-radius: 25px;
+        width: 110px;
+        padding: 8px;
+        height: 35px;
+        background: rgb(205, 201, 200);
+}
+
+.pagenotfound_navlink:hover {
+    cursor: pointer;
+    color: white;
+    background: rgb(60, 103, 148);
+}
+
+
